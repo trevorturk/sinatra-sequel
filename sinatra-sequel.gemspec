@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w[README.md COPYING]
   s.add_dependency 'sinatra',    '>= 0.9.4'
   s.add_dependency 'sequel',     '>= 3.2.0'
-  s.add_development_dependency 'bacon'
+  # s.add_development_dependency 'bacon'
 
   s.has_rdoc = true
   s.homepage = "http://github.com/rtomayko/sinatra-sequel"
